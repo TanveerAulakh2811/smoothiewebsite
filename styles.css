@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #EDDADA, #CB8587);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFFDD0; /* Cream for the container background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(246, 229, 229); /* Light Cream */
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #938e31; /* Blush Pink */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #d68a8d;
+    border-radius: 5px;
+    background-color: #accd95; /* Soft Lavender */
+}
+
+.form-group select[multiple] {
+    height: auto; /* Adjust height for multiple selection */
+    overflow-y: auto; /* Add scrollbar if needed */
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #CB8587; /* Rose */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #DE5D83; /* Blush Pink */
+}
+
+#smoothie-description {
+    margin-top: 20px;
+    background-color: #e6becd; /* Soft Lavender */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #618625;
+}
+
+img {
+    max-width: 100%;
+    height: 680px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

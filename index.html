@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Order Your Smoothie</h2>
+            <form id="smoothie-form">
+                <div class="form-group">
+                    <label for="size">Smoothie Size</label>
+                    <select id="size" name="size" required>
+                        <option value="">Select Size</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="base">Base</label>
+                    <select id="base" name="base" required>
+                        <option value="">Select Base</option>
+                        <option value="Water">Water</option>
+                        <option value="Milk">Milk</option>
+                        <option value="Almond Milk">Almond Milk</option>
+                        <option value="Soy Milk">Soy Milk</option>
+                        <option value="Yogurt">Yogurt</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fruits">Fruits</label>
+                    <select id="fruits" name="fruits"  required>
+                        <option value="Banana">Banana</option>
+                        <option value="Strawberry">Strawberry</option>
+                        <option value="Blueberry">Blueberry</option>
+                        <option value="Mango">Mango</option>
+                        <option value="Pineapple">Pineapple</option>
+                        <option value="Apple">Apple</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Peach">Peach</option>
+                        <option value="Cherry">Cherry</option>
+                        <option value="Kiwi">Kiwi</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="extras">Extras</label>
+                    <input type="text" id="extras" name="extras" placeholder="e.g., Chia Seeds, Honey">
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="orderSmoothie()">Order</button>
+                </div>
+            </form>
+            <div id="smoothie-description"></div>
+        </div>
+        <img src="SMOOTHIE.jpg" alt="Smoothie Image">
+    </div>
+    
+
+    <script src="smoothie.js"></script>
+</body>
+</html>
+
